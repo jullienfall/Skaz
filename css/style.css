@@ -22,16 +22,18 @@ body {
     position: absolute;
     top: 4.5em;
     left: 200px;
-    right: 120px;
+    right: 110px;
 }
 #main-nav ul {
-    margin: 0;
     text-align: center;
+    margin: 0;
     padding: 0;
 }
 #main-nav ul li {
+    margin: 0;
     display: inline-block;
-    padding-left: 2%;
+    padding: 0;
+    padding-left: 2.5%;
     padding-right: 2%;
 }
 #main-nav ul li a {
@@ -46,7 +48,7 @@ body {
 }
 .header-logo {
     position: absolute;
-    left: 5%;
+    left: 4%;
     top: 2em;
 }
 .header-logo img {
@@ -58,7 +60,7 @@ body {
     top: 4.4em;
     width: 90px;
     height: 20px;
-    right: 5%;
+    right: 4%;
 }
 .social-media a {
     position: absolute;
@@ -121,7 +123,7 @@ section.slider {
   top: 45%;
   color: #fff;
   font-family: 'Cuprum', sans-serif;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: normal;
 }
 .b-slider h1 span {
