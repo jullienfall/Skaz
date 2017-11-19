@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
 }
@@ -6,19 +9,20 @@ body {
 
 .header {
     width: 100%;
-    height: 133px;
+/*    height: 133px;*/
+    margin-bottom: 1.5em;
 }
 .header .b-header {
     height: 133px;
-    width: 992px;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
 }
 #main-nav {
-    width: 595px;
     position: absolute;
-    top: 79px;
+    top: 4.5em;
     left: 230px;
+    right: 120px;
 }
 #main-nav ul {
     margin: 0;
@@ -27,33 +31,35 @@ body {
 }
 #main-nav ul li {
     display: inline-block;
+    padding: 2%;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 #main-nav ul li a {
     color: #000;
     font-family: 'Cuprum', sans-serif;
     text-decoration: none;
     font-size: 19px;
-    padding: 5px;
     text-transform: uppercase;
 }
 #main-nav ul li a.spec {
     font-style: italic;
 }
-header {
+.header-logo {
     position: absolute;
-    left: 76px;
-    top: 32px;
+    left: 5%;
+    top: 2em;
 }
 .header-logo img {
-    width: 136px;
-    height: 84px;
+    width: 166px;
+    height: 101px;
 }
 .social-media {
     position: absolute;
-    top: 78px;
+    top: 4.4em;
     width: 90px;
     height: 20px;
-    right: 44px;
+    right: 5%;
 }
 .social-media a {
     position: absolute;
@@ -79,15 +85,15 @@ header {
 /************* Slider **********/
 
 section.slider {
-  width: 992px;
-  height: 490px;
+  max-width: 1200px;
+  height: 80vh;
   margin: 0 auto;
   position: relative;
 }
 .slider .b-slider img {
-  width: 992px;
-  height: 490px;
-  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute; 
 }
 
 .fade {
@@ -110,21 +116,22 @@ section.slider {
 .b-slider h1 {
   position: absolute;
   z-index: 100;
-  left: 48px;
-  top: 260px;
+  left: 2em;
+  top: 40%;
   background-color: #000;
   color: #fff;
   font-family: 'Cuprum', sans-serif;
-  font-size: 40px;
+  font-size: 2em;
   font-weight: normal;
+  margin: 0;
 }
 
 .b-slider p {
   position: absolute;
   z-index: 100;
-  width: 570px;
-  left: 45px;
-  top: 365px;
+  width: 50vw;
+  left: 4em;
+  top: 70%;
   color: #000;
   font-family: 'Cuprum', sans-serif;
   font-size: 15px;
