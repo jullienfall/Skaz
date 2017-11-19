@@ -1,22 +1,11 @@
 @media (max-width: 992px){
     #main-nav ul {
-        text-align: left;
-        padding: 4%;
-        padding-bottom: 0;
-        padding-top: 0;
+        padding-left: 1%;
+        padding-right: 1%;
     }
 }
-@media (max-width: 870px) {
-    #main-nav ul {
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-    #main-nav {
-        right: 110px;
-        left: 190px;
-    }
-}
-@media (max-width: 760px) {
+
+@media (max-width: 767px) {
     #main-nav {
         left: 0;
         right: 0;
@@ -24,9 +13,6 @@
      }
     .header .b-header {
         height: 150px;
-    }
-    #main-nav ul {
-        text-align: center;
     }
     .header-logo {
         top: 0.6em;
@@ -38,10 +24,12 @@
         height: 60vh;
     }
     .b-slider h1 {
-        left: 1em;
-    }
+        top: 40%;
+        left: 1.5em;
+        margin-right: 1.5em;
+     }
     .b-slider p {
         width: 96vw;
         left:2vw;
-      }
+     }
 }
