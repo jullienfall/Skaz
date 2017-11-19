@@ -87,6 +87,7 @@ body {
 section.slider {
   max-width: 1200px;
   height: 80vh;
+  min-height: 350px;
   margin: 0 auto;
   position: relative;
 }
