@@ -9,8 +9,7 @@ body {
 
 .header {
     width: 100%;
-/*    height: 133px;*/
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
 }
 .header .b-header {
     height: 133px;
@@ -20,19 +19,21 @@ body {
 }
 #main-nav {
     position: absolute;
-    top: 4.5em;
+    top: 4em;
     left: 200px;
-    right: 120px;
+    right: 130px;
 }
 #main-nav ul {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0;
-    padding: 0;
+    padding: 0 75px 0 30px;
 }
 #main-nav ul li {
     margin: 0;
     display: inline-block;
-    padding: 0 2.5%;
+    padding: 0 10px;
 }
 #main-nav ul li a {
     color: #000;
@@ -47,7 +48,7 @@ body {
 .header-logo {
     position: absolute;
     left: 4%;
-    top: 2em;
+    top: 1.5em;
 }
 .header-logo img {
     width: 166px;
@@ -55,7 +56,7 @@ body {
 }
 .social-media {
     position: absolute;
-    top: 4em;
+    top: 3.4em;
     width: 97px;
     height: 27px;
     right: 4%;
@@ -88,35 +89,53 @@ body {
 
 section.slider {
   max-width: 1200px;
-  height: 80vh;
+  height: 78vh;
+  min-height: 400px;
   max-height: 600px;
-  min-height: 350px;
   margin: 0 auto;
   position: relative;
 }
-.slider .b-slider img {
-  width: 100%;
-  height: 100%;
-  position: absolute; 
+.b-slider {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
 }
-
+.slider1 {
+    background-image: url(../img/moda.jpg);
+}
+.slider2 {
+    background-image: url(../img/venice.jpg);
+}
+.slider3 {
+    background-image: url(../img/paris.jpg);
+}
+.slider4 {
+    background-image: url(../img/amsterdam.jpg);
+}
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2.5s;
+  -webkit-animation-duration: 5s;
   animation-name: fade;
-  animation-duration: 2.5s;
-  transition: all 5s ease; 
+  animation-duration: 5s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: 0.7} 
-  to {opacity: 1}
+/*@-webkit-keyframes fade {
+   from {
+      transform: translateX(0);
+   }
+   to {
+      transform: translateX(100%);
+   }
 }
-
 @keyframes fade {
-  from {opacity: 0.7} 
-  to {opacity: 1}
-}
+   from {
+      transform: translateX(100%);
+   }
+   to {
+      transform: translateX(0);
+   }
+}*/
 
 .b-slider h1 {
   position: absolute;
@@ -135,12 +154,12 @@ section.slider {
 .b-slider p {
   position: absolute;
   z-index: 100;
-  width: 60vw;
+  width: 60%;
   left: 4em;
   top: 70%;
   color: #000;
   font-family: 'Cuprum', sans-serif;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: normal;
 }
 .b-slider p span {
@@ -173,3 +192,25 @@ section.slider {
   border-radius: 4px 0 0 4px;
   right: 0px;
  }
+.dots {
+    width: 120px;
+    position: absolute;
+    bottom: 1%;
+    margin: 0 auto;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.active {
+    background-color: #fff;
+    transform: scale(1.5);
+}
+.dot {
+    display: inline-block;
+    cursor: pointer;
+    margin: 7px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 60%;
+}
