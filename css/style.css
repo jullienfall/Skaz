@@ -102,9 +102,9 @@ section.slider {
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 2.5s;
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
