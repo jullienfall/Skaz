@@ -55,21 +55,24 @@ body {
 }
 .social-media {
     position: absolute;
-    top: 4.4em;
-    width: 90px;
-    height: 20px;
+    top: 4em;
+    width: 97px;
+    height: 27px;
     right: 4%;
 }
 .social-media a {
     position: absolute;
-    width: 30px;
-    height: 20px;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    transition: 0.8s ease;
+    color: #000;
 }
-.social-media a img {
-    width: 20px;
-    height: 20px; 
+.social-media i {
+    font-size: 1.4em;
+    padding: 5px;
+}
+.social-media a:hover {
+    background-color: #000;
+    color: #fff;
 }
 .social-media a.facebook {
     left: 6px;
@@ -146,12 +149,13 @@ section.slider {
 .b-button {
   cursor: pointer;
   width: 40px;
-  height: 60px;
+  height: 50px;
   position: absolute;
   top: 45%;
   color: #000;
+  font-weight: lighter;
   font-size: 50px;
-  line-height: 60px;
+  line-height: 50px;
   text-align: center;
 }
 
