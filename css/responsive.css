@@ -1,23 +1,18 @@
-/*
-@media (max-width: 992px){
+/*@media (max-width: 991px){
     #main-nav ul {
         text-align: left;
     }
-*/
-/*
     #main-nav ul li {
-        padding-left: 3%;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
     }
-*/
-/*
-    .header-logo {
-        left: 2%;
+}
+@media (max-width: 894px) {
+        #main-nav ul li {
+        padding-left: 2%;
+        padding-right: 2%;
     }
-    .social-media {
-        right: 2%;
-    }
-
-*/
+}*/
 
 @media (max-width: 767px) {
     #main-nav {
@@ -25,6 +20,11 @@
         right: 0;
         top: 125px;
      }
+/*
+    #main-nav ul {
+        text-align: center;
+    }
+*/
     .header .b-header {
         height: 150px;
     }
@@ -48,3 +48,14 @@
         left:2vw;
      }
 }
+/*
+@media (max-width: 610px) {
+    #main-nav ul {
+        text-align: left;
+    }
+        #main-nav ul li {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+*/
