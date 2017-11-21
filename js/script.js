@@ -1,3 +1,17 @@
+// Drop-menu
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-60px";
+    }
+}
+
+// Slider
+
 var slideIndex = 1;
 var timer = null;
 showSlides(slideIndex);

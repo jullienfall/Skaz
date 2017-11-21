@@ -9,10 +9,9 @@ body {
 
 .header {
     width: 100%;
-    margin-bottom: 0.5em;
 }
 .header .b-header {
-    height: 133px;
+    height: 160px;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -83,6 +82,70 @@ body {
 }
 .social-media a.twitter {
     right: 0;
+}
+
+/********** Navigation scroll ***********/
+
+.header-scroll {
+    top: -60px;
+    width: 100%;
+    margin-bottom: 0.5em;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.header-scroll .b-header-scroll {
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#main-nav-scroll {
+    position: absolute;
+    left: 15px;
+}
+#main-nav-scroll ul {
+    display: none;
+    margin: 0;
+}
+#main-nav-scroll ul li {
+    margin: 0;
+    display: block;
+    padding: 0 10px;
+    background-color: rgba(0,0,0,0.7);
+}
+#main-nav-scroll ul li a {
+    color: #fff;
+    font-family: 'Cuprum', sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+#main-nav-scroll ul li a.spec {
+    font-style: italic;
+}
+.header-logo-scroll {
+    position: absolute;
+    left: 60px;
+    top: 0.2em;
+}
+.header-logo-scroll img {
+    width: 116px;
+    height: 51px;
+}
+.header-scroll label[for="drop-menu"] {
+    display: block;
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+.header-scroll #drop-menu:checked + ul {
+    display: block;
+}
+.header-scroll #drop-menu,label[for="drop-menu"] {
+    display: none;
 }
 
 /************* Slider **********/

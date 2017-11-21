@@ -11,26 +11,22 @@
     #main-nav ul {
         padding: 0;
     }
-
 }
 
 @media (max-width: 767px) {
     #main-nav {
         left: 5%;
         right: 5%;
-        top: 125px;
+        top: 112px;
      }
     #main-nav ul {
         padding: 0 0px;
     }
-    .header .b-header {
-        height: 170px;
-    }
     .header-logo {
-        top: 0.6em;
+        top: 0.3em;
     }
     .social-media {
-        top: 3em;
+        top: 2.5em;
     }
     .b-slider h1 {
         top: 40%;
