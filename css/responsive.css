@@ -1,6 +1,6 @@
 @media (max-width: 991px){
         .b-slider p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
         .header-logo {
         left: 2%;
@@ -10,6 +10,13 @@
     }
     #main-nav ul {
         padding: 0;
+    }
+    .container {
+        width: 50%;
+    }
+    .content-img {
+        width: 48vw;
+        height: 32vw;
     }
 }
 
@@ -40,5 +47,11 @@
         font-size: 1em;
         top: 65%;
      }
+    .container {
+        width: 100%;
+    }
+    .content-img {
+        width: 90vw;
+        height: 61vw; 
+    }
 }
-

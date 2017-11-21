@@ -152,7 +152,7 @@ body {
 
 section.slider {
   max-width: 1200px;
-  height: 78vh;
+  height: 76vh;
   min-height: 400px;
   max-height: 600px;
   margin: 0 auto;
@@ -291,15 +291,21 @@ section.slider {
     flex-wrap: wrap;
 }
 .container {
-    width: 350px;
-    height: 400px;
+    width: 33.33%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-.container h1, p {
-    padding: 0 10px;
+.container p {
+    padding: 10px 30px;
+}
+.container h1 {
+    padding: 0 30px;
 }
 .content-img {
-    width: 350px;
-    height: 250px;
+    margin: 0 auto;
+    width: 28vw;
+    height: 19vw;
     background-position: center;
     background-size: cover;
 }
